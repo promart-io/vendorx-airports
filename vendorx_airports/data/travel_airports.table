@@ -1,0 +1,114 @@
+{
+  "name": "TRAVEL_AIRPORTS",
+  "type": "TABLE",
+  "columns": [
+    {
+        "name":"AIRPORT_ID",
+        "type":"INTEGER",
+        "length":"0",
+        "nullable": "false",
+        "primaryKey":"true",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_NAME",
+        "type":"VARCHAR",
+        "length":"128",
+        "nullable": "false",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_CITY",
+        "type":"VARCHAR",
+        "length":"128",
+        "nullable": "false",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_COUNTRY",
+        "type":"VARCHAR",
+        "length":"128",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_IATA_FAA",
+        "type":"CHAR",
+        "length":"3",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_ICAO",
+        "type":"CHAR",
+        "length":"4",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_LATITUDE",
+        "type":"DOUBLE",
+        "length":"0",
+        "nullable": "false",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_LONGITUDE",
+        "type":"DOUBLE",
+        "length":"0",
+        "nullable": "false",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_ALTITUDE",
+        "type":"DOUBLE",
+        "length":"0",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_TIMEZONE",
+        "type":"DOUBLE",
+        "length":"0",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_DST",
+        "type":"CHAR",
+        "length":"1",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+      ,
+      {
+        "name":"AIRPORT_TZ",
+        "type":"VARCHAR",
+        "length":"128",
+        "nullable": "true",
+        "primaryKey":"false",
+        "defaultValue":""
+      }
+  ],
+  "dependencies": []
+}
